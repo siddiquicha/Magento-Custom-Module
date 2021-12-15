@@ -1,14 +1,18 @@
-# Magento-Custom-Module For Order Export
+Magento-Custom-Module For Order Export with custom column
+This Magento 2 module will export order with custom column orders select chosen date on the admin panel.
 
-# Download Module
-# Interated with with you magento application.
-# Follow the Below command.
- bin/magento module:enable module_name
+## Installation
+composer require myimaginOrderExport/orderexport
+
+## Contact
+Please contact at siddiqui.208@gmail.com
+
+
+## command after integration
+
+ bin/magento module:enable vendor_module
  bin/magento setup:upgrade
  bin/magento setup:static-content:deploy 
  bin/magento cache:clean
  bin/magento cache:flush
 
-# This module uses as per our customization required to export order with custom column name.
-# Intalling magento it will show menu icon name and click to order export.
-# Add date range between date and get download csv file.
